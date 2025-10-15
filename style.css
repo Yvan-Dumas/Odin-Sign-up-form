@@ -87,6 +87,7 @@ input {
 input:focus {
     border: 0.1em solid black;
     outline: 0.2em solid rgba(9, 107, 255, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 #Password1:invalid,
