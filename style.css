@@ -78,10 +78,20 @@ a {
 }
 
 input {
-    border: 0.01em solid grey;
+    border: 0.1em solid grey;
     border-radius: 0.2em;
     padding: 0.5em;
     margin: 0 5em 1em 0;
+}
+
+input:focus {
+    border: 0.1em solid black;
+    outline: 0.2em solid rgba(9, 107, 255, 0.3);
+}
+
+#Password1:invalid,
+#Password2:invalid {
+    outline: 0.2em solid rgba(255, 0, 0, 0.3);
 }
 
 label {
