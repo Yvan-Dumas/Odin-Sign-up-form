@@ -1,2 +1,3 @@
 # Odin-Sign-up-form
-Sign-up form project from The Odin Project
+A sign up form for imaginary service
+Project for The Odin Project
