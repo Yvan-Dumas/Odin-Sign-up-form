@@ -30,6 +30,22 @@ body {
     object-fit: cover;
 }
 
+#logo {
+    background-color: rgba(0, 0, 0, 0.747);
+    width: 100%;
+    text-align: center;
+    color: azure;
+    position: absolute;
+    left: 50%;
+    bottom: 16em;
+    transform: translateX(-50%);
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1.5rem;
+}
+
+
+
 .illustration p {
   position: absolute;
   left: 50%;
